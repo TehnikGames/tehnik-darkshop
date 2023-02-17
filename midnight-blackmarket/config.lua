@@ -3,13 +3,13 @@ Config = {}
 -- Blip na mapie
 Config.UseBlip = false -- najlepiej zostawic off
 Config.BlipLocation = {
-    {title="Czarny Rynek", colour=37, id=47, x = -462.73, y = -66.37, z = 44.90},
+    {title="Darkshop", colour=37, id=47, x = -462.73, y = -66.37, z = 44.90},
 }
 
 -- Jesli uzywasz itemku pieniędzy, dla przykladu "money" jesli uzywasz ox_inventory
 Config.CurrencyItem = 'money'
 
--- Menu
+-- Menu dostępych napadów
 Config.RobberyList = {
     [1] = {
         bank = false,
@@ -30,7 +30,7 @@ Config.RobberyList = {
         minCops = 6
     },
 }
-
+-- konfiguracja sprzedawanych rzeczy w darkshopie
 Config.Shop = {
     [1] = {
         item = "hack_usb",
